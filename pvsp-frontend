@@ -1,0 +1,22 @@
+cd pvsp-frontend
+
+git init
+git add .
+git commit -m "feat: PVSP V5.1 React frontend"
+
+git remote add origin https://github.com/degraafmartijn/pvsp-frontend.git
+git branch -M main
+git push -u origin main
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+pvsp.db
+.env
+
+node_modules/
+dist/
+.env
+.env.local
